@@ -6,7 +6,24 @@ M3 - Fundamentos de Maven - Grupo 6
 - Comandos usados con Maven.
 
 Comando de inicialización:
+
+En powershell:
 mvn archetype:generate "-DgroupId=com.equipo.taskmaster" "-DartifactId=taskmaster" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+
+Entrar a la carpeta raiz:
+cd Maven/taskmaster
+
+Ejecutar la pruebas:
+mvn test
+
+Compilar:
+mvn clean package
+
+Ejecutar:
+mvn exec:java
+
+Ejecutar con un perfil:
+mvn exec:java -Pdev -Denvname=Dev
 
 - Dependencias y plugins utilizados.
 
