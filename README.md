@@ -34,3 +34,4 @@ org.codehaus.mojo:exec-maven-plugin:3.1.0
 - Mayor aprendizaje técnico al usar Maven
 
 - Desafío enfrentado al usar Maven
+El mayor desafio enfrentado al usar Maven fueron los comandos deprecados y tener que realizar una investigación de la forma de importar Junit5, ya que los comandos incluidos en el ejercicio pertencian a Junit4, ademas de entender como pasar la variable de entorno desde pom.xml a App.java
